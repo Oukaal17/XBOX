@@ -1,4 +1,25 @@
 *{
-    margin: auto;
-    padding: auto;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: blueviolet;
+}
+.navbar{
+    padding: 17px;
+    display: flex;
+    height: 20%;
+    background-color: orange;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoxbox{
+    height: 60px;
+}
+.menu{
+    background-color: aqua;
+}
+main{
+    height: 80%;
+    background-color: green;
 }
