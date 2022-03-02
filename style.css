@@ -15,6 +15,7 @@ body{
 }
 .logoxbox{
     height: 60px;
+    filter: invert(100%);
 }
 .menu{
     width: 30vw ;
