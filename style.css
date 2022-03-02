@@ -47,4 +47,5 @@ main{
 h1{
     font-size: 4.5rem;
     filter: invert(100%);
+    letter-spacing: 0.4rem;
 }
