@@ -28,6 +28,7 @@ button{
     border: none;
     padding: 5px;
     color: white;
+    cursor: pointer;
 }
 
 main{
