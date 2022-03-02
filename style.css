@@ -9,16 +9,27 @@ body{
     padding: 17px;
     display: flex;
     height: 20%;
-    background-color: orange;
+    --background-color: orange;
     justify-content: space-between;
     align-items: center;
 }
 .logoxbox{
     height: 60px;
+    filter: invert(100%);
 }
 .menu{
-    background-color: aqua;
+    width: 30vw ;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: transparent;
 }
+button{
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    color: white;
+}
+
 main{
     height: 80%;
     background-color: green;
