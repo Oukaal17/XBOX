@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-y: hidden;
 }
 body{
     background-color: rgb(43, 86, 226);
@@ -8,7 +9,7 @@ body{
 .navbar{
     padding: 17px;
     display: flex;
-    height: 20%;
+    height: 10vh;
     --background-color: orange;
     justify-content: space-between;
     align-items: center;
@@ -32,6 +33,17 @@ button{
 }
 
 main{
-    height: 80%;
+    height: 90vh;
     background-color: green;
+}
+.textomanin{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+h1{
+    font-size: 4.5rem;
+    filter: invert(100%);
 }
